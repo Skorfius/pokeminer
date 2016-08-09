@@ -10,8 +10,7 @@ MAP_START = (12.3456, 34.5678)
 MAP_END = (13.4567, 35.6789)
 GRID = (2, 2)  # row, column
 CYCLES_PER_WORKER = 3
-SCAN_DELAY_LOW = 10  # seconds
-SCAN_DELAY_HIGH = 12  # will vary between SCAN_DELAY_LOW and SCAN_DELAY_HIGH
+SCAN_DELAY = (10, 12)  # will vary between these values (in seconds)
 
 SCAN_RADIUS = 70  # metres
 
