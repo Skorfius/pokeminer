@@ -33,6 +33,7 @@ GOOGLE_MAPS_KEY = 's3cr3t'
 # As many as can fit will be included as hashtags in your tweets, these will
 # be combined with landmark-specific hashtags (if applicable).
 HASHTAGS = {AREA_NAME, 'PokemonGO'}
+TZ_OFFSET = 0  # hours offset from server time for reported times
 
 LANDMARKS = [
     Landmark('Indian Hills', north=40.279321, west=-111.644326,
